@@ -1,11 +1,11 @@
 #! /bin/bash
 
 echo -e "enter the principle: \c"
-read -r principle
+read -r $1
 echo -e "enter the time: \c"
-read -r time
+read -r $2
 echo -e "enter the rate: \c"
-read -r rate
+read -r $3
 
 simpleinterest=$(((principle*time*rate)/100))
 echo "$simpleinterest"
