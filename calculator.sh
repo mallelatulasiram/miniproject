@@ -1,14 +1,6 @@
 #! /bin/bash
 
 
-echo "what operation would you like to perform"
-echo "======================================="
-echo "additon"
-echo "subration"
-echo "multiplication"
-echo "division"
-echo "======================================="
-
 
 if [ $what_operation == addition ];then
 
