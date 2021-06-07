@@ -1,7 +1,6 @@
 #!bin/bash
 #echo enter n
 #read n
-n=676
 num=0
 on=$n
 while [ $n -gt 0 ]
